@@ -1,0 +1,94 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Testing and Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+test-results/
+
+# =========================
+# Type Checking and Linting
+# =========================
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# =========================
+# Logs and Temporary Files
+# =========================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# =========================
+# IDEs and Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Application Data
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# Celery / Task Queues
+# =========================
+celerybeat-schedule
+celerybeat.pid
+
+# =========================
+# Docker Local Overrides
+# =========================
+docker-compose.override.yml
